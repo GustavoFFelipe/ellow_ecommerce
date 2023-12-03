@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ellow Ecommerce In progress.
 
-## Getting Started
+## Sobre
+ A Ellow ecommerce é um caso de estudo para o desenvolvimento de um ecommerce completo, com integrações back-end e com pagamentos em tempo real. 
+ O foco desse projeto e desenvolver um ecommerce que possa ser atualizado e mantido por pessoas não desenvolvedoras, como pequenos negócios e agências, que querem ter mais desenpenho e liberdade e como outra alternativa ao uso de aplicações WordPress.
+ Algumas tecnologias que serão utilizadas vão ser melhor descritas ao longo da documentação.
 
-First, run the development server:
+## Tecnologias
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- ReactJS;
+- NextJS;
+- Sanity;
+- Tailwind CSS;
+-  Deploy in Vercel;
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Sanity
+Para o back-end da aplicação estou utilizando o Sanity por alguns motivos.
+* Economia e otimização de tempo.
+    Com ele conseguimos implementar todo o back-end em alguns minutos sempre precisar utilizar diversas configurações.
+* Fácil manutenção e gestão por pessoas.
+    No caso deste projeto, onde o foco é criar um ecommerce onde qualquer pessoa sendo ela dev ou não possa manter o site e fazer atualizações de seus produtos.
+* Controle, cadastro e gerenciamento de DB
+    Dessa forma fica fácil para se gerenciar todo o banco de dados atráves de uma Interface gráfica intuitiva para qualquer usuario.
+[Sanity](https://www.sanity.io).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Tailwind
+Tailwind é uma forma rápida e muito dinamica e que economiza bastante tempo de desenvolvimento.
+Com ele é possivel trabalhar o css de forma mais intuitiva principalmente sem ter que ficar pulando de um documento para outro, ou manter varias abas abertas.
+* Economia de tempo;
+* Dinamico;
+* É um pós-processador, o que permite que o CSS seja convertido para diversos navegadores nos poupando tempo.
+* Ele também executa a build antes do site ser colocado em produção o que evita atrasos no carregamento do CSS quando o usuario acessa o site.
